@@ -7,3 +7,8 @@ function show()
 {
 	alert(`First Name:${fname.value} Last Name:${lname.value} Phone Number:${pnum.value} Email ID:${emailid.value}`)
 }
+document.querySelector("form").onsubmit=function(event)
+	{
+		event.preventDefault();
+		show();
+	};
