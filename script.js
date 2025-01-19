@@ -1,4 +1,5 @@
 //your JS code here. If required.
+window.onload = function() {
 let fname=document.getElementById("firstname");
 let lname=document.getElementById("lastname");
 let pnum=document.getElementById("phonenumber");
@@ -12,3 +13,4 @@ document.querySelector("form").onsubmit=function(event)
 		event.preventDefault();
 		show();
 	};
+};
